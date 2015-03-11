@@ -1,5 +1,5 @@
 <?php
-namespace Moodle;
+namespace Noodle;
 class Exception extends \Exception
 {
 }

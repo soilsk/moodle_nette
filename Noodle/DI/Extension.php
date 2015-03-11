@@ -1,6 +1,6 @@
 <?php
 
-namespace Moodle\DI;
+namespace Noodle\DI;
 
 
 use Nette\Configurator;
@@ -31,8 +31,8 @@ class Extension extends CompilerExtension
             throw new Exception('siteToken must be set');
         }
 
-        $builder->addDefinition($this->prefix('moodle'))
-                ->setClass('Moodle\Moodle', array($config['siteToken'],$config['siteUrl']));
+        $builder->addDefinition($this->prefix('noodle'))
+                ->setClass('Noodle\Noodle', array($config['siteToken'],$config['siteUrl']));
     }
 
 
@@ -42,7 +42,7 @@ class Extension extends CompilerExtension
     public static function register(Configurator $configurator)
     {
         $configurator->onCompile[] = function ($config, Compiler $compiler) {
-            $compiler->addExtension('Moodle', new Extension());
+            $compiler->addExtension('Noodle', new Extension());
         };
     }
 

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Moodle
+ * Noodle
  * -----------
  * Moodle plugin for Nette
  * Add/remove users, enroll to course, feedback from quiz mod.
@@ -12,13 +12,13 @@
  * @link       ?
  */
 
-namespace Moodle;
+namespace Noodle;
 
 use Nette\Object;
 use Nette\Utils\Strings;
 use Nette\Callback;
 
-class Moodle extends Object {
+class Noodle extends Object {
 
   /** @var string */ 
   private $siteUrl; 
