@@ -22,5 +22,6 @@
 	},
 	"autoload": {
 		"classmap": ["Noodle/"]
-	}
+	},
+	"minimum-stability": "dev"
 }
