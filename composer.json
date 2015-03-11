@@ -1,13 +1,13 @@
 
 {
-	"name": "soilsk/nette_moodle",
+	"name": "soilsk/noodle",
 	"type": "library",
 	"description": "Test plugin for nette with moodle",
-	"keywords": ["nette", "moodle", "quiz"],
-	"homepage": "https://github.com/soilsk/moodle_nette",
+	"keywords": ["nette"],
+	"homepage": "https://github.com/soilsk/noodle",
 	"license": "MIT",
 	"support": {
-		"issues": "https://github.com/soilsk/moodle_nette/issues"
+		"issues": "https://github.com/soilsk/noodle/issues"
 	},
 	"require": {
 		"php": ">=5.3.0",
